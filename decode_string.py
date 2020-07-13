@@ -6,6 +6,7 @@ def decodeString(s: str) -> str:
     for c in s:
         if c.isdigit():
             mult = mult * 10 + int(c)
+
         if c.isalpha():
             curr_str += c
         if c == '[':
